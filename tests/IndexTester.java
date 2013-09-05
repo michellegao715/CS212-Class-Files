@@ -101,7 +101,7 @@ public class IndexTester {
 		Driver.main(args);
 
 		Assert.assertTrue(String.format(format, name),
-				BaseTester.testFiles(Paths.get(name), out));
+				BaseTester.testFiles(Paths.get("invertedindex-reversed.txt"), out));
 	}
 
 	/**
